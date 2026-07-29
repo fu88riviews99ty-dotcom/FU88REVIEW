@@ -1,9 +1,9 @@
 # FU88REVIEW
 
 ![Status](https://res.cloudinary.com/dj0zv0wpq/image/upload/v1785356970/GitHub001_qntjjp.jpg)(https://fu88review.com/)
-![License](https://fu88review.com/)
-![Version](https://fu88review.com/)
-![Documentation](https://fu88review.com/)
+![License](https://res.cloudinary.com/dj0zv0wpq/image/upload/v1785357044/GitHub_foqhbp.jpg)(https://fu88review.com/)
+![Version](https://res.cloudinary.com/dj0zv0wpq/image/upload/v1785357073/GitHub003_vtbjlb.jpg)(https://fu88review.com/)
+![Documentation](https://res.cloudinary.com/dj0zv0wpq/image/upload/v1785357093/GitHub004_jgbtos.jpg)(https://fu88review.com/)
 
 ---
 
