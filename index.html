@@ -4,34 +4,246 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FU88REVIEW</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
 body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#0f172a;
-    color:#fff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
+background:#0d1224;
+color:white;
 }
-.container{
-    text-align:center;
+
+header{
+
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+width:100%;
+background:rgba(10,10,20,.75);
+backdrop-filter:blur(15px);
+z-index:1000;
+
 }
-h1{
-    color:#fbbf24;
+
+.logo{
+
+font-size:28px;
+font-weight:700;
+color:#FFC107;
+
 }
-a{
-    color:#38bdf8;
-    text-decoration:none;
+
+nav a{
+
+color:white;
+margin-left:35px;
+text-decoration:none;
+
 }
+
+.hero{
+
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:
+linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),
+url("https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1600&q=80");
+
+background-size:cover;
+background-position:center;
+
+}
+
+.hero h1{
+
+font-size:70px;
+margin-bottom:20px;
+color:#FFD54F;
+
+}
+
+.hero p{
+
+font-size:22px;
+max-width:700px;
+margin:auto;
+
+}
+
+.btn{
+
+display:inline-block;
+margin-top:35px;
+padding:16px 40px;
+background:#FFC107;
+color:#111;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+
+}
+
+section{
+
+padding:90px 8%;
+
+}
+
+.title{
+
+font-size:40px;
+margin-bottom:40px;
+
+}
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+
+}
+
+.card{
+
+background:#18203a;
+padding:35px;
+border-radius:18px;
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+}
+
+footer{
+
+padding:30px;
+text-align:center;
+background:#08101f;
+
+}
+
 </style>
+
 </head>
+
 <body>
-<div class="container">
-    <h1>FU88REVIEW</h1>
-    <p>Independent review and educational content.</p>
-    <p>Welcome to the project homepage.</p>
+
+<header>
+
+<div class="logo">
+
+FU88REVIEW
+
 </div>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Reviews</a>
+<a href="#">Guides</a>
+<a href="#">Articles</a>
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>FU88REVIEW</h1>
+
+<p>
+
+Independent reviews, educational articles, and platform insights.
+
+</p>
+
+<a href="#" class="btn">
+
+Explore Articles
+
+</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">
+
+Featured Content
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Platform Reviews</h3>
+
+<p>
+
+Objective reviews and comparisons.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Educational Guides</h3>
+
+<p>
+
+Learn terminology and best practices.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Latest Articles</h3>
+
+<p>
+
+Stay updated with new content.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+©2026 FU88REVIEW
+
+</footer>
+
 </body>
+
 </html>
