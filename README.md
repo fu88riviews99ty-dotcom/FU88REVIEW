@@ -1,6 +1,6 @@
 # FU88REVIEW
 
-![Status](https://fu88review.com/)
+![Status](https://res.cloudinary.com/dj0zv0wpq/image/upload/v1785356970/GitHub001_qntjjp.jpg)(https://fu88review.com/)
 ![License](https://fu88review.com/)
 ![Version](https://fu88review.com/)
 ![Documentation](https://fu88review.com/)
